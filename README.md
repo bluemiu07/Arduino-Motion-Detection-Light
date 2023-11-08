@@ -25,21 +25,28 @@ Optional :
 -Components Assembly-
 
 1.	Assemble LEDs and resistors on the breadboard
+   
    ![image](https://github.com/bluemiu07/arduino-motion-detection-light/assets/101344093/9983aebe-5be1-4d34-88ba-c632f25d2046)
+   
    Once done assembling, connect them to Arduino UNO digital ports using jumper wires.
 
 2.	Adjust PIR sensitivity and delay time
+   
    ![image](https://github.com/bluemiu07/arduino-motion-detection-light/assets/101344093/d73e0a84-b2a1-43e3-96cb-1a8cd5bf395e)
 
 3.	Connect PIR Sensor with Arduino board
+   
    ![image](https://github.com/bluemiu07/arduino-motion-detection-light/assets/101344093/20e3dafa-3d1e-4f98-a081-b628b997bd41)
+   
   Attach male to female jumper wires from PIR pins to the board’s ports accordingly:
   •	GND -GND
   •	High / Low Output -Digital port
   •	+ Power-5v
 
 4.	Connect ESP8266 to Arduino board
+   
    ![image](https://github.com/bluemiu07/arduino-motion-detection-light/assets/101344093/08dbb9bb-ecc3-42d0-b90c-504bef8f10de)
+   
   	 From ESP8266 pins to arduino and breadboard :
     •	RX- TX (Arduino)
     •	3v3- + 18 (Breadboard)
