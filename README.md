@@ -1,4 +1,4 @@
-# About
+# Arduino Motion Detection Light
 The conducted project is about motion light detection which the led will turn on when any motion from objects or living is detected.
 This device is able to switch modes. There are two modes where one mode relies on the motion sensor (auto) and the other requires a person to control the state “on/off” of the lights through mobile application (manual). When auto mode is set, smart lights equipped with sensors can communicate with other lights and exchange information on the sensed ambient conditions to adapt the lighting, otherwise, the configuration for the light state can be done manually via application (remotely) by the connection of internet.
 
@@ -57,7 +57,7 @@ This device is able to switch modes. There are two modes where one mode relies o
     •	GND	- - 6 (Breadboard)
 
  ## The coding
- 1. Paste code (PIRSENSOR) in Arduino IDE
+ 1. Paste [this code](https://github.com/bluemiu07/Arduino-Motion-Detection-Light/blob/main/PIRSENSOR.ino) in Arduino IDE
  2. Ensure the board and port selected is right
  3. Upload the code
 
